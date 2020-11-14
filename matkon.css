@@ -1,12 +1,17 @@
 body {
-    font-family: ariel;
+font-family:'Rubik', sans-serif;
 }
 h1{ 
-       color: crimson;
+color: crimson;
+font-weight: 700;
+font font-size: 7em;
 }
 h2{
-    color: cadetblue;
+color: cadetblue;
+font font-weight: 400;
 }
 h3{
-    color:deeppink;
+color:darkseagreen;
+font-weight: 700;
+font font-size: 3em;
 }
