@@ -1,5 +1,7 @@
 body {
 font-family:'Rubik', sans-serif;
+font-size: 20px;
+color:black
 }
 h1{ 
 color: crimson;
@@ -11,7 +13,16 @@ color: cadetblue;
 font font-weight: 400;
 }
 h3{
-color:darkseagreen;
+color:crimson;
 font-weight: 700;
 font font-size: 3em;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
 }
