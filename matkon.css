@@ -4,7 +4,7 @@ font-size: 20px;
 color:black;
 }
 h1{ 
-color:#4c2400;
+color:#663333;
 font-weight: 700;
 font-size: 600;
 }
@@ -13,9 +13,24 @@ color:#dd9d12;
 font-weight: 400;
 }
 h3{
-color:#034434;
+color:#034434;  
 font-weight:700;
 font-size:400;
+}
+h4{
+color: #ffffff;
+font-weight: 700;
+font-size: 40px;
+}
+h5{
+color: #000;
+font-weight: 700;
+font-size:27px;
+}
+h6{
+color: #000;
+font-weight: 700;
+font-size: 15px;
 }
 img{
     max-width: 100%;
@@ -28,7 +43,7 @@ img{
 }
 
 .cta {
-background:#faeedd;
+background:#efd2d2;
 font-size: 21px;
 padding: 20px;
 margin-top: 50px;
@@ -37,7 +52,7 @@ overflow: hidden;
 }
 
 .button {
-background: #2531aa;
+background: #663333;
   color: #fff;
   text-decoration: none;
   padding: 15px; 30px;
@@ -64,3 +79,10 @@ background: #000;
 .cta.alignleft{
     
 }
+.news {
+padding:50px;
+background: url(tmonot/%D7%97%D7%A6%D7%99%20%D7%A4%D7%A1%20%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20%D7%90%D7%9C%D7%A4%D7%97%D7%95%D7%A8%D7%A1.jpg);
+background-position:center;
+background-size: cover;
+text-align: center;
+}                                               
