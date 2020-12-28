@@ -23,14 +23,9 @@ font-weight: 700;
 font-size: 40px;
 }
 h5{
-color: #000;
+color: #ffffff;
 font-weight: 700;
 font-size:27px;
-}
-h6{
-color: #000;
-font-weight: 700;
-font-size: 15px;
 }
 img{
     max-width: 100%;
@@ -80,9 +75,39 @@ background: #000;
     
 }
 .news {
-padding:50px;
-background: url(tmonot/%D7%97%D7%A6%D7%99%20%D7%A4%D7%A1%20%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20%D7%90%D7%9C%D7%A4%D7%97%D7%95%D7%A8%D7%A1.jpg);
+padding: 50px;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url(tmonot/%D7%97%D7%A6%D7%99%20%D7%A4%D7%A1%20%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20%D7%90%D7%9C%D7%A4%D7%97%D7%95%D7%A8%D7%A1.jpg);
+
+/* background:    url(tmonot/%D7%97%D7%A6%D7%99%20%D7%A4%D7%A1%20%D7%A2%D7%9C%D7%99%D7%95%D7%9F%20%D7%90%D7%9C%D7%A4%D7%97%D7%95%D7%A8%D7%A1.jpg); */
+
 background-position:center;
 background-size: cover;
 text-align: center;
-}                                               
+font-size: 24px;
+color: #ffffff;
+}     
+
+.news h2{
+font-size: 24px;
+color: #ffffff;   
+}
+
+input{
+font: inherit;
+color: inherit;
+background: none;
+border: 2px solid #fff;
+padding: 5px;
+}
+lebel{
+margin-bottom: 10px;
+display: block;
+}
+label span{
+display: inline-block;
+width: 100px; 
+}
+.news.button{
+background: none;
+}
